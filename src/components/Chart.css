@@ -1,0 +1,22 @@
+.bar-group .name-label {
+  text-anchor: middle;
+  font-weight: 500;
+  font-size: 0.9em;
+  fill: #333;
+  transform: translate(-10px, 0);
+}
+
+.bar-group .value-label {
+  text-anchor: end;
+  fill: #000;
+  font-weight: 400;
+  font-size: 0.7em;
+}
+
+.bar-group:hover rect {
+  opacity: 0.5 !important;
+}
+
+.bar-group:hover .name-label {
+  font-weight: 400;
+}
